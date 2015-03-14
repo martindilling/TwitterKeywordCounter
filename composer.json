@@ -1,0 +1,31 @@
+{
+    "name": "martindilling/twitter-keyword-counter",
+    "description": "List keyword usage a users tweets",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Martin Dilling-Hansen",
+            "email": "martindilling@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "abraham/twitteroauth": "~0.5.1",
+        "vlucas/phpdotenv": "~1.1",
+        "league/climate": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "TwitterKeywordCounter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TwitterKeywordCounter\\Tests\\": "tests/"
+        }
+    }
+}
