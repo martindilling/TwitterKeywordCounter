@@ -16,6 +16,24 @@ Run the command and fill in the settings.
 php keywordcounter.php
 ````
 
+Example output:
+
+````
+Username [dillinghansen]: twitter
+Number of tweets to analyse [100]:
+Show top [10]: 5
+
+Keyword count from: @twitter
+-------------------------------------------------------------------------------------------------------------------
+
+to,56
+the,55
+twitter,43
+rt,34
+on,29
+````
+
+
 ## Tests
 
 Unit tests is found in the `tests` folder.
